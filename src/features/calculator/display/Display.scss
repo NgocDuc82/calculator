@@ -1,0 +1,31 @@
+.screen {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-color: #4357692d;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  box-sizing: border-box;
+  flex-direction: column;
+  .result{
+      font-size: normal;
+    }
+    .oparation {
+        font-size: 18px;
+        letter-spacing: 1.4px;
+    }
+    .light {
+      color: #fff;
+      font-size: 20px;
+    }
+    .dark {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.3);
+
+    }
+  }
