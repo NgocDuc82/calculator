@@ -4,7 +4,6 @@ import { useSelector } from "react-redux";
 
 export default function History({ toggleHis }) {
   const value = useSelector((state) => state.calculatorSlice.history);
-  console.log(value);
   return (
     <div className={toggleHis ? "history" : "history none"}>
       {value.map((value, index) => {
